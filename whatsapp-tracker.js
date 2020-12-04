@@ -2,7 +2,7 @@ setInterval(function() {
 	var dt = new Date();
 	var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
 	try {
-		var lastSeen = document.getElementsByClassName("_2ruUq _3xjAz")[0].innerText;
+		var lastSeen = document.getElementsByClassName("_3Id9P _1VzZY")[0].innerText;
 		console.log(time + ' ' + lastSeen);
 	}
 	catch(err) {

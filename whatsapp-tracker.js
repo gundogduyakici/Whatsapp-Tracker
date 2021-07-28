@@ -2,8 +2,8 @@ setInterval(function() {
 	var dt = new Date();
 	var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
 	try {
-		if(document.getElementsByClassName("YmixP fKfSX")[0]) {
-			var lastSeen = document.getElementsByClassName("YmixP fKfSX")[0].innerText;
+		if(document.getElementsByClassName("zzgSd _3e6xi")[0]) {
+			var lastSeen = document.getElementsByClassName("zzgSd _3e6xi")[0].innerText;
 			console.log(time + ' ' + lastSeen);
 		}		
 	}

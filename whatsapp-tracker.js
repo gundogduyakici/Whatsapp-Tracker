@@ -1,10 +1,12 @@
 setInterval(function() {
-	var dt = new Date();
-	var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
+	let dt = new Date();
+	let time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
 	try {
-		if(document.getElementsByClassName("selectable-text")[0]) {
-			var lastSeen = document.getElementsByClassName("selectable-text")[0].innerText;
-			console.log(time + ' ' + lastSeen);
+		if(document.getElementsByClassName("x78zum5 x1cy8zhl xisnujt x1nxh6w3 xcgms0a x16cd2qt")[0]) {
+			let divElement = document.getElementsByClassName("x78zum5 x1cy8zhl xisnujt x1nxh6w3 xcgms0a x16cd2qt")[0];
+			let spanElement = divElement.querySelector('span');
+			let title = spanElement.getAttribute('title');
+			console.log(time + ' ' + title);
 		}		
 	}
 	catch(err) {
